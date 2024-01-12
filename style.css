@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+.fa-solid{
+    color: gold;
+}
+.fa-regular {
+    color: silver;
+}
+.pre{
+    font-size: 25px;
+    color: rgb(128, 123, 123);
+    padding-top: 20px;
+}
+
+ul{
+    font-size: 18px;
+    color: rgb(128, 123, 123);
+    padding-top: 50px;
+    list-style-type: none;
+}
+.io{
+    padding-left: 50px;
+}
+.he{
+    padding-top:10px ;
+}
+.cad{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 300px;
+}
+.cad1{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 300px;
+    margin-top: 50px;
+}
+.icon{
+  margin-top: 20px ;  
+}
+.fex{
+    display: flex;
+    gap: 10px;
+}
+.fex1{
+    display: flex;
+    gap: 10px;
+}
+.title{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.tex{
+    font-size: 20px;
+    color: rgb(128, 123, 123);
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.con{
+    margin-top: 20px ;  
+  }
+
+ 
+.fix{
+    
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+.sum{
+    
+    margin-left: 20px;
+    
+}
+.fi{
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .fi{
+        flex-direction: column;
+    }
+}
